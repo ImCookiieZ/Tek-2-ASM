@@ -1,0 +1,48 @@
+gcc main.c src/strlen.o src/strchr.o src/memset.o src/memcpy.o src/strcmp.o src/memmove.o src/strncmp.o src/strcasecmp.o src/rindex.o src/strstr.o src/strpbrk.o src/strcspn.o bonus/write.o bonus/strdup.o bonus/toupper.o bonus/tolower.o bonus/tolowerchar.o bonus/toupperchar.o test/memcpy.o test/memmove.o test/memset.o test/rindex.o test/strcasecmp.o test/strchr.o test/strcmp.o test/strcspn.o test/strpbrk.o test/strstr.o test/change_case.o -g
+./a.out
+used writethuhu
+simple memcpy 3
+simple memcpy 0
+simple memmove 3
+simple memmove 0
+simple memset 3
+memset too big  
+rindex test
+rindex test empty string
+strcasecmp res 0
+strcasecmp res not 0
+strchr test
+rindex test empty string
+strcmp res 0
+strcmp res not 0
+strpbrk found	
+strpbrk not found	
+strstr found	
+strstr not found	
+strcspn found
+strcspn found
+strlen found
+strlen empty
+strncmp res 0
+strcmp res not 0
+
+
+
+
+
+
+
+
+
+should write:
+used writet
+wrote:
+
+
+should write:
+huhu
+wrote:
+ich werd gross -> ICH WERD GROSS 723
+and lower again : ich werd gross 723
+C -> c
+l -> L

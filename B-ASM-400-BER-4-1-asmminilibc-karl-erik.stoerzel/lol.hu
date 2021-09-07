@@ -1,0 +1,3 @@
+gcc main.c src/strlen.o src/strchr.o src/memset.o src/memcpy.o src/strcmp.o src/memmove.o src/strncmp.o src/strcasecmp.o src/rindex.o src/strstr.o src/strpbrk.o src/strcspn.o bonus/write.o bonus/strdup.o -g
+./a.out
+huhu
